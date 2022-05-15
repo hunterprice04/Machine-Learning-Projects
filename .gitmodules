@@ -1,0 +1,6 @@
+[submodule "Comparison-of-PSO-and-Gradient-Descent-in-Optimization-For-Neural-Networks"]
+	path = Comparison-of-PSO-and-Gradient-Descent-in-Optimization-For-Neural-Networks
+	url = git@github.com:hunterprice04/Comparison-of-PSO-and-Gradient-Descent-in-Optimization-For-Neural-Networks.git
+[submodule "Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data"]
+	path = Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data
+	url = git@github.com:hunterprice04/Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data.git
