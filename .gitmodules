@@ -4,3 +4,6 @@
 [submodule "Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data"]
 	path = Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data
 	url = git@github.com:hunterprice04/Distributed-Deep-Learning-Network-to-Predict-Location-of-Google-Street-View-Data.git
+[submodule "Implementation-Of-A-Lightweight-Transformer-And-Analysis-Of-Text-Generation-Sampling-Techniques"]
+	path = Implementation-Of-A-Lightweight-Transformer-And-Analysis-Of-Text-Generation-Sampling-Techniques
+	url = git@github.com:hunterprice04/Implementation-Of-A-Lightweight-Transformer-And-Analysis-Of-Text-Generation-Sampling-Techniques.git
