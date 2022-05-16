@@ -5,13 +5,15 @@ if [[ "$1" == "--push" ]]; then
     SHOULD_PUSH=true
 fi
 
+echo '##############################################################################################'
 echo 'Updating README...'
 echo "# Research-Projects" > README.md
 echo "This repo contains submodules pointing to my research projects for various courses at the University Of Tennessee." >> README.md
 echo "">> README.md
 echo "The following are links to the individual projects:" >> README.md
 
-
+echo '##############################################################################################'
+echo 'Updating submodules...'
 git pull
 git submodule update --init --recursive
 path=$(pwd)
@@ -33,7 +35,7 @@ done
 echo '##############################################################################################'
 
 if [[ $SHOULD_PUSH == true ]]; then
-    git add .
+    git add README.md
     git commit -m "Update README.md"
     git push
     echo '##############################################################################################'
